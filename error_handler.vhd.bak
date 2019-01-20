@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity error_handler is port (
+	fast_clk, slow_clk, toggle	: in 	std_logic;
+	error_led, out_clk   : out std_logic;
+); 
+end MUX;
+
+architecture MUX_circuit of MUX is
+
+-- Bypass for structural implementation in top file
+begin
+	error_led <= toggle;
+	out_clk <= (fast_clk and not toggle) or (slow_clk and toggle);
+end MUX_circuit;

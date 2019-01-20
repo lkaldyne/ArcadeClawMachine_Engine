@@ -1,0 +1,20 @@
+
+State Machine - |LogicalStep_Lab4_top|marco_extender:INST12|current_state
+Name current_state.s9 current_state.s8 current_state.S7 current_state.S6 current_state.S5 current_state.S4 current_state.S3 current_state.S2 current_state.S1 current_state.S0 
+current_state.S0 0 0 0 0 0 0 0 0 0 0 
+current_state.S1 0 0 0 0 0 0 0 0 1 1 
+current_state.S2 0 0 0 0 0 0 0 1 0 1 
+current_state.S3 0 0 0 0 0 0 1 0 0 1 
+current_state.S4 0 0 0 0 0 1 0 0 0 1 
+current_state.S5 0 0 0 0 1 0 0 0 0 1 
+current_state.S6 0 0 0 1 0 0 0 0 0 1 
+current_state.S7 0 0 1 0 0 0 0 0 0 1 
+current_state.s8 0 1 0 0 0 0 0 0 0 1 
+current_state.s9 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |LogicalStep_Lab4_top|meek_meally:INST1|current_state
+Name current_state.error current_state.arrival current_state.motion current_state.stationary 
+current_state.stationary 0 0 0 0 
+current_state.motion 0 0 1 1 
+current_state.arrival 0 1 0 1 
+current_state.error 1 0 0 1 
